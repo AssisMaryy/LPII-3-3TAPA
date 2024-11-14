@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: cover;
+}
+
+main{
+    background-color:rgb(134, 184, 224);
+    padding: 50px;
+    margin: auto;
+    border-radius: 20px;
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+input{
+    width: 400px;
+    height: 43px;
+    border-radius: 0px white;
+    margin: 10px;
+}
+label{
+    
+    text-align: end;
+}
+header{
+    width: 100%;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+    height: 80px;
+   align-items: center;
+   margin-bottom: 80px;
+}
+#cabecalho{
+    font-size: 26px;    
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+
+label{
+    font-size: 1em;
+}
+button{
+    margin-left: 160px;
+    justify-content: center;
+    padding: 10px;
+    width: 100px;
+    margin-top: 10px;
+    background-color: rgb(74, 74, 172);
+    color: white;
+}
+h1{
+    text-align: center;
+}
+span{
+    color: red;
+}

@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/carrinho.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#"><img src="img/logo.png" alt="" style="height: 50px;width: 50px;"></a>
+
+            <ul id="cabecalho">
+               <a href="home.html">
+                <li>Home</li>
+               </a><a href="#">
+                <li>tipos de livros</li>
+               </a><a href="#">
+                <li>Produtos</li>
+               </a>
+            </ul>
+
+            
+            <a href="form.html"><img src="img/pessoa.png" alt="" style="width: 50px;height: 50px;"></a>
+        </nav>
+    </header>
+    <main>
+        <h1>Compre já seus livros!!</h1>
+        <form action="" method="get" onsubmit="event.preventDefault();livro()">
+            <section>
+                  <article>
+                    <img src="img/diariodeumapaixao.jpg" alt="" id="heartstopper">
+                    <h3>Diário de uma paixão</h3>
+                    <h4>R$ 44,90</h4>
+                    <br>
+                    <input type="number" name="livro1" id="livro1" min="0" value="0" >
+                
+                </article>
+                <article>
+                    <img src="img/eassimqueacaba.jpg" alt="" id="divertidamente">
+                    <h3>É assim que acaba</h3>
+                    <h4>R$ 35,83</h4>
+                    <br>
+                    <input type="number" name="livro2" id="livro2" min="0" value="0" >
+                
+                </article>
+                <article>
+                    <img src="img/eueessemeucoracao.webp" alt="" id="eueessemeucoracao">
+                    <h3>Eu e esse meu coração</h3>
+                    <h4>R$ 36,22</h4>
+                    <br>
+                    <input type="number" name="livro3" id="livro3" min="0" value="0" >
+                </article>
+        
+            </section>
+            <section>
+                    <article>
+                        <img src="img/fabricante.jpg" alt="" id="fabricante">
+                        <h3>O fabricante de lágrimas</h3>
+                        <h4>R$ 61,50</h4>
+                        <br>
+                        <input type="number" name="livro4" id="livro4" min="0" value="0" >
+                    
+                    </article>
+                    <article>
+                        <img src="img/porlugaresincriveis.jpg" alt="" id="fabricante">
+                        <h3>Por lugares incriveis</h3>
+                        <br>
+                        <h4>R$ 33,95</h4>
+                        <br>
+                        <input type="number" name="livro5" id="livro5" min="0" value="0" >
+                    
+                    </article>
+            <article>
+                        <img src="img/vbsa.jpg" alt="" id="fabricante">
+                        <h3>Vermelho,branco,sangue e azul</h3>
+                        <h4>R$ 24,00</h4>
+                        <br>
+                        <input type="number" name="livro6" id="livro6" min="0" value="0" >
+            </article>
+            </section>
+        
+            <input type="submit" value="Comprar" id="finalizar">
+           
+        </form>
+    </main>
+    <aside id="resultado">
+        <h2>Preço final</h2>
+        <hr>
+        <ul id="livros">
+
+        </ul>
+        <hr>
+        <p id="resposta">
+
+        </p>
+
+    </aside>
+    <script src="js/script1.js"></script>
+</body>
+</html>
